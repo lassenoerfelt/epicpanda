@@ -1,0 +1,233 @@
+body {
+    background-image: url(baggrund.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/*generelt indhold*/
+
+.vogn {
+    width: 80px;
+    float: right;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hovedmenu li {
+    margin-top: 20px;
+    margin-right: 10px;
+    overflow: hidden;
+    font-family: courier new;
+    float: right;
+}
+
+.navi {
+    float: right;
+    color: white;
+    padding: 10px;
+    font-family: sans-serif;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.logo {
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.soegmaskine {
+    width: 220px;
+    margin-bottom: 25px;
+    margin-left: 150px;
+}
+
+/* Undermenu */
+
+.undermenu {
+    margin: 5%;
+    margin-left: 35%;
+}
+
+.undermenu li {
+    font-size: 30px;
+    margin-right: 4%;
+    overflow: hidden;
+    float: left;
+}
+
+.undermenu a {
+    text-decoration: none;
+    color: black;
+    font-family: courier new;
+}
+
+.undermenu a:hover {
+    color: indianred;
+}
+
+.undermenu a.current {
+    color: indianred;
+    cursor: default;
+}
+
+/*Profil*/
+
+.avatar {
+    width: 150px;
+    position: absolute;
+    left: 20%;
+    top: 40%;
+}
+
+.navn {
+    font-size: 35px;
+    position: absolute;
+    font-family: courier new 
+    font-family: sans-serif;
+    top: 36%;
+    left: 31%;
+}
+
+.rank {
+    font-size: 20px;
+    position: absolute;
+    font-family: courier new 
+    font-family: sans-serif;
+    font-style: italic;
+    top: 45%;
+    left: 31%;
+}
+
+.ranknavn {
+    font-size: 25px;
+    position: absolute;
+    font-family: courier 
+    new font-family: sans-serif;
+    font-style: italic;
+    top:47%;
+    left: 31%;
+}
+
+.aktiv {
+    position: absolute;
+    font-family: sans-serif;
+    top: 57%;
+    left: 31%;
+}
+
+.xp {
+    position: absolute;
+    font-family: sans-serif;
+    font-style: italic;
+    top: 64%;
+    left: 33%;
+}
+.xpbar {
+    position: absolute;
+    width: 30%;
+    top: 68%;
+    left: 20%;
+}
+
+.money {
+    position: absolute;
+    width: 12%;
+    top: 40%;
+    right: 25%;
+}
+
+.swords {
+    position: absolute;
+    width: 55%;
+    top: 75%;
+    left: 22%;
+}
+
+.magic {
+    position: absolute;
+    width: 18%;
+    top: 84%;
+    left: 25%;
+
+}
+
+.pokemon {
+    position: absolute;
+    width: 19%;
+    top: 84%;
+    left: 55%;
+}
+
+.doomangle {
+    position: absolute;
+    width: 15%;
+    top: 100%;
+    left: 25%;
+}
+
+.yugioh {
+    position: absolute;
+    width: 16%;
+    top: 100%;
+    left: 55%;
+}
+
+/*Rewards galleri*/
+
+section#gallery {
+    margin: 10% 25% 0% 25%;
+}
+
+div.gallery {
+    margin: 15px;
+    border: 10px solid;
+    float: left;
+    width: 27%;
+    height: 27%;
+    border-color: #9C9B8F;
+}
+
+div.gallery:hover {
+    border-color: #E9DB3C;
+}
+
+div.desc {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: silver;
+}
+
+/* INFO */
+
+article {
+    margin: 10% 20% 10% 20%;
+    font-size: 20px;
+}
+
+article a {
+    color: black;
+    font-family: courier new sans-serif;
+    font-family: courier new;
+}
+
+article a:hover {
+    color: indianred;
+}
+
+/*footer*/
+#container {
+    background-color: whitesmoke;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    height: 15%;
+    width: 14%;
+    overflow:hidden;
+}
+#footer {
+    font-family: monospace;
+    margin-left: 7%;
+}
